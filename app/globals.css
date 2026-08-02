@@ -63,6 +63,19 @@ dl { margin:2.5rem 0; border-top:1px solid #e2bcc2; }
 dl div { display:grid; grid-template-columns:120px 1fr; gap:1rem; padding:1.1rem 0; border-bottom:1px solid #e2bcc2; }
 dt { font-size:.7rem; font-weight:750; letter-spacing:.12em; text-transform:uppercase; } dd { margin:0; color:#80525c; }
 .outline-button { background:transparent; border:1px solid var(--red); color:var(--red); }.place-links { display:flex; flex-wrap:wrap; gap:.6rem; }
+.travel { background:#fffaf5; }
+.travel-map { max-width:1200px; margin:0 auto 2rem; overflow:hidden; border:1px solid var(--red); background:var(--blush); }
+.travel-map img { display:block; width:100%; height:auto; }
+.travel-routes { display:grid; grid-template-columns:1fr 1fr; gap:1px; max-width:1200px; margin:auto; background:var(--red); border:1px solid var(--red); }
+.travel-card { padding:clamp(2rem,4vw,3.5rem); background:var(--blush); }
+.travel-card h3 { margin:.15rem 0 .6rem; font-family:var(--font-serif); color:var(--red); font-size:clamp(2rem,4vw,3.3rem); font-weight:600; line-height:1; }
+.travel-card>p:not(.kicker):not(.travel-time) { color:#80525c; line-height:1.75; }
+.travel-time { margin:.8rem 0 1.3rem; color:var(--red); font-weight:750; letter-spacing:.04em; }
+.travel-card .outline-button { margin-top:1rem; }
+.travel-address { max-width:1200px; margin:2rem auto 0; padding:1.5rem; border-top:1px solid #e2bcc2; text-align:center; }
+.travel-address span { display:block; margin-bottom:.5rem; color:var(--hot); font-size:.7rem; font-weight:750; letter-spacing:.16em; text-transform:uppercase; }
+.travel-address strong { font-family:var(--font-serif); color:var(--red); font-size:1.5rem; }
+.travel-address p { margin:.5rem 0 0; color:#80525c; }
 .rsvp { background:var(--red); color:#fff; }
 .light .kicker { color:var(--pink); }.light>p:not(.kicker),.light small { color:#efd2d7; }.light small { display:block; margin-top:1rem; }
 .rsvp-form { display:grid; grid-template-columns:1fr 1fr; gap:1.3rem; max-width:780px; margin:auto; padding:clamp(1.5rem,4vw,3.5rem); background:#fff8f4; color:var(--ink); }
@@ -81,10 +94,13 @@ footer { padding:4rem 1.25rem; background:var(--red); color:#fff; text-align:cen
 .guest-list { background:#fff; }.guest-table { max-width:900px; margin:auto; border-top:1px solid #e3cfca; }.guest-row { display:grid; grid-template-columns:minmax(140px,1.5fr) 1fr 1fr; align-items:center; gap:1rem; min-height:64px; padding:.8rem 1rem; border-bottom:1px solid #e3cfca; }.guest-head { min-height:46px; color:#8d6e69; font-size:.7rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }.answer { width:max-content; padding:.35rem .65rem; border-radius:999px; background:#f3ecea; font-size:.72rem; }.answer.yes { background:#f7d2cd; color:#7d1c17; }.answer.no { color:#76635f; }.answer.unsure { background:#fff0d1; color:#72551e; }.empty-list { text-align:center; color:#80525c; }
 
 @media (max-width:760px) {
-  .nav { height:66px; }.nav-links>a:not(.nav-rsvp) { display:none; }.nav-rsvp { padding:.6rem .85rem; }
+  .nav { height:66px; padding:0; overflow-x:auto; justify-content:flex-start; background:rgba(255,240,245,.96); border-bottom:1px solid rgba(165,35,25,.2); }
+  .nav-links { width:max-content; gap:1.15rem; padding:0 1rem; font-size:.68rem; white-space:nowrap; }
   .hero { min-height:82svh; }.hero-copy { min-height:82svh; padding:7rem 1.25rem 4rem; }.hero h1 { font-size:clamp(4.4rem,20vw,6.8rem); }
   .schedule { grid-template-columns:1fr; gap:.8rem; }.day-card { min-height:360px; }.day-card.red { transform:none; }
   .place { grid-template-columns:1fr; }.place-art { min-height:360px; }
+  .travel-map img { width:auto; max-width:none; height:420px; transform:translateX(-19%); }
+  .travel-routes { grid-template-columns:1fr; }
   .rsvp-form { grid-template-columns:1fr; }.choice-row { grid-template-columns:1fr; }.choice span { text-align:left; padding:1rem; }
   .qr-card { flex-direction:column; gap:1.5rem; text-align:center; }.stay-row { gap:2.5rem; }
   .guest-row { grid-template-columns:1fr 1fr; gap:.55rem; padding:1rem .25rem; }.guest-row strong { grid-column:1/-1; }.guest-head { display:none; }.answer { width:100%; text-align:center; }

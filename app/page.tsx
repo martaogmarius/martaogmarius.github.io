@@ -10,6 +10,7 @@ export default function Home() {
         <div className="nav-links">
           <a href="#helgen">Program</a>
           <a href="#stedet">Om stedet</a>
+          <a href="#reise">Hvordan komme seg dit?</a>
           <a href="#gjester">Hvem kommer?</a>
         </div>
       </nav>
@@ -79,6 +80,41 @@ export default function Home() {
             <a className="outline-button" href={wedding.venueUrl} target="_blank" rel="noreferrer">Nettside</a>
             <a className="outline-button" href={wedding.instagramUrl} target="_blank" rel="noreferrer">Instagram</a>
           </div>
+        </div>
+      </section>
+
+      <section id="reise" className="travel section-pad">
+        <div className="section-heading">
+          <p className="kicker">Reise</p>
+          <h2>Hvordan komme seg dit?</h2>
+          <p>Det enkleste er å fly til Roma eller Firenze og leie bil videre til SPAO. Beregn litt ekstra tid ved mye trafikk.</p>
+        </div>
+
+        <div className="travel-map">
+          <img src="/travel-map.jpg" alt="Kart som viser kjørerutene fra flyplassene i Roma og Firenze til SPAO i Umbria" />
+        </div>
+
+        <div className="travel-routes">
+          <article className="travel-card">
+            <p className="kicker">Alternativ 1</p>
+            <h3>Roma Fiumicino</h3>
+            <p className="travel-time">Ca. 190 km · ca. 2 t 15 min</p>
+            <p>Fly til Leonardo da Vinci–Fiumicino. Herfra går turen nordover mot Orvieto og videre på landevei til SPAO.</p>
+            <a className="outline-button" href="https://www.google.com/maps/dir/?api=1&origin=Rome+Fiumicino+Airport&destination=SPAO+Borgo+San+Pietro+Aquaeortus+Allerona&travelmode=driving" target="_blank" rel="noreferrer">Åpne kjørerute</a>
+          </article>
+          <article className="travel-card">
+            <p className="kicker">Alternativ 2</p>
+            <h3>Firenze Peretola</h3>
+            <p className="travel-time">Ca. 170 km · ca. 2 timer</p>
+            <p>Fly til Amerigo Vespucci–Peretola. Kjør sørover gjennom Toscana mot Fabro og videre til SPAO.</p>
+            <a className="outline-button" href="https://www.google.com/maps/dir/?api=1&origin=Florence+Airport+Peretola&destination=SPAO+Borgo+San+Pietro+Aquaeortus+Allerona&travelmode=driving" target="_blank" rel="noreferrer">Åpne kjørerute</a>
+          </article>
+        </div>
+
+        <div className="travel-address">
+          <span>Adresse</span>
+          <strong>SPAO Borgo San Pietro Aquaeortus</strong>
+          <p>Strada Provinciale SP50 km 10+300, 05011 Allerona (TR), Italia</p>
         </div>
       </section>
 
