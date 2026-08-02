@@ -11,6 +11,7 @@ export default function Home() {
           <a href="#helgen">Program</a>
           <a href="#stedet">Om stedet</a>
           <a href="#reise">Hvordan komme seg dit?</a>
+          <a href="#pris">Hva koster det?</a>
           <a href="#gjester">Hvem kommer?</a>
         </div>
       </nav>
@@ -117,6 +118,50 @@ export default function Home() {
           <span>Adresse</span>
           <strong>SPAO Borgo San Pietro Aquaeortus</strong>
           <p>Strada Provinciale SP50 km 10+300, 05011 Allerona (TR), Italia</p>
+        </div>
+      </section>
+
+      <section id="pris" className="costs section-pad">
+        <div className="section-heading">
+          <p className="kicker">Pris og inkludert</p>
+          <h2>Hva koster det?</h2>
+        </div>
+
+        <div className="cost-summary">
+          <p className="cost-label">Overnatting · 2 netter</p>
+          <p className="cost-price">3 000 NOK <span>per person</span></p>
+          <p>Beløpet betales til vår konto:</p>
+          <p className="bank-account">6032.54.88487</p>
+          <p className="binding-note">Endelig og bindende RSVP gjelder når beløpet er innbetalt.</p>
+        </div>
+
+        <div className="included-heading">
+          <h3>Hva er inkludert?</h3>
+          <p>Dette er inkludert i løpet av bryllupshelgen – og hva du eventuelt betaler for selv.</p>
+        </div>
+
+        <div className="included-grid">
+          <article className="included-card">
+            <p className="day-name">Fredag</p>
+            <ul>
+              <li>Pizza og alkoholfri drikke er inkludert.</li>
+              <li>Øl, vin eller annen alkohol denne kvelden kjøpes av den enkelte.</li>
+            </ul>
+          </article>
+          <article className="included-card featured">
+            <p className="day-name">Lørdag</p>
+            <ul>
+              <li>Frokost er inkludert.</li>
+              <li>Middag med tilhørende vin, øl og alkoholfrie alternativer er inkludert.</li>
+              <li>Mat og drikke utenom bryllupsarrangementet kan kjøpes direkte fra SPAO.</li>
+            </ul>
+          </article>
+          <article className="included-card">
+            <p className="day-name">Søndag</p>
+            <ul>
+              <li>Frokost er inkludert.</li>
+            </ul>
+          </article>
         </div>
       </section>
 
