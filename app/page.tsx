@@ -8,9 +8,9 @@ export default function Home() {
     <main>
       <nav className="nav" aria-label="Hovedmeny">
         <div className="nav-links">
-          <a href="#helgen">Helgen</a>
-          <a href="#stedet">Stedet</a>
-          <a className="nav-rsvp" href="#rsvp">Svar her</a>
+          <a href="#helgen">Program</a>
+          <a href="#stedet">Om stedet</a>
+          <a href="#gjester">Hvem kommer?</a>
         </div>
       </nav>
 
@@ -21,7 +21,7 @@ export default function Home() {
           <p className="couple-names">Marta & Marius</p>
           <p className="date">{wedding.date}</p>
           <p className="venue">{wedding.venue}<br />{wedding.place}</p>
-          <a className="primary-button" href="#rsvp">Gi oss svar</a>
+          <a className="primary-button" href="#rsvp">Svar her</a>
         </div>
       </header>
 

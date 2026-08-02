@@ -15,7 +15,7 @@ export function GuestList() {
   }, []);
 
   return (
-    <section className="guest-list section-pad">
+    <section id="gjester" className="guest-list section-pad">
       <div className="section-heading">
         <p className="kicker">Gjester</p>
         <h2>Hvem kommer?</h2>
