@@ -16,11 +16,11 @@ button,a { -webkit-tap-highlight-color:transparent; }
 .hero { min-height:100svh; display:grid; place-items:center; background:var(--blush); color:var(--red); overflow:hidden; border-bottom:1px solid var(--red); }
 .hero-copy { display:flex; flex-direction:column; align-items:center; justify-content:center; width:100%; max-width:1000px; text-align:center; padding:8rem 1.25rem 5rem; }
 .eyebrow,.kicker { margin:0 0 1.1rem; font-size:.72rem; font-weight:700; letter-spacing:.2em; text-transform:uppercase; }
-.hero h1 { margin:0; font-family:var(--font-serif); font-size:clamp(5.8rem,12vw,11rem); font-weight:545; font-variation-settings:"SOFT" 10,"WONK" 1,"opsz" 144; letter-spacing:-.065em; line-height:.72; color:var(--red); }
+.hero h1 { margin:0; font-family:var(--font-serif); font-size:clamp(5.8rem,12vw,11rem); font-weight:545; font-variation-settings:"SOFT" 10,"WONK" 1,"opsz" 144; letter-spacing:-.065em; line-height:.78; color:var(--red); }
 .save-style { display:flex; flex-direction:column; align-items:center; }
 .save-style span { display:block; transform:scaleX(1.04); }
-.save-style span:first-child { margin-bottom:-.12em; }
-.save-style em { position:relative; z-index:1; margin:0 0 -.12em; color:var(--red); font-size:.37em; font-weight:520; font-style:italic; line-height:.78; letter-spacing:-.055em; }
+.save-style span:first-child { margin-bottom:.05em; }
+.save-style em { position:relative; z-index:1; margin:0 0 .13em; color:var(--red); font-size:.37em; font-weight:520; font-style:italic; line-height:.9; letter-spacing:-.055em; }
 .couple-names { margin:1.8rem 0 2.4rem; font-family:var(--font-sans); font-size:clamp(.9rem,1.7vw,1.2rem); font-weight:750; letter-spacing:.24em; text-transform:uppercase; }
 .wine-glasses { display:block; width:min(430px,82vw); height:auto; margin:0 auto 2.2rem; }
 .hero-details { display:grid; grid-template-columns:1fr 1.35fr; width:min(760px,92vw); margin:0 0 2.2rem; border-top:1px solid var(--red); border-bottom:1px solid var(--red); }
