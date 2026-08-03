@@ -23,14 +23,11 @@ export function QrCard() {
   }
 
   return (
-    <div className="qr-card">
-      <canvas ref={canvas} aria-label="QR-kode til bryllupsnettsiden" />
-      <div>
-        <p className="kicker">Til invitasjonen</p>
-        <h3>QR-koden er klar</h3>
-        <p>Koden peker alltid til denne siden og kan lastes ned som bildefil.</p>
-        <button className="text-button" onClick={download}>Last ned QR-kode</button>
-      </div>
+    <div className="qr-card qr-download-card">
+      <p className="kicker">Til invitasjonen</p>
+      <button className="qr-download" onClick={download} aria-label="Last ned QR-koden">
+        <canvas ref={canvas} aria-label="QR-kode til bryllupsnettsiden" />
+      </button>
     </div>
   );
 }
