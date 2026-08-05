@@ -9,8 +9,9 @@ export function RsvpForm() {
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    const submittedForm = event.currentTarget;
     setStatus("sending");
-    const form = new FormData(event.currentTarget);
+    const form = new FormData(submittedForm);
     const body = {
       name: String(form.get("name") || ""),
       email: String(form.get("email") || ""),
@@ -28,7 +29,7 @@ export function RsvpForm() {
       });
       if (!response.ok) throw new Error("Kunne ikke sende");
       setStatus("success");
-      event.currentTarget.reset();
+      submittedForm.reset();
     } catch {
       setStatus("error");
     }
