@@ -12,11 +12,12 @@ export function RsvpForm() {
     const submittedForm = event.currentTarget;
     setStatus("sending");
     const form = new FormData(submittedForm);
+    const weekend = String(form.get("weekend") || "") as Attendance;
     const body = {
       name: String(form.get("name") || ""),
       email: String(form.get("email") || ""),
-      friday: String(form.get("friday") || "") as Attendance,
-      saturday: String(form.get("saturday") || "") as Attendance,
+      friday: weekend,
+      saturday: weekend,
       dietary: String(form.get("dietary") || ""),
       note: String(form.get("note") || ""),
     };
@@ -55,8 +56,7 @@ export function RsvpForm() {
         <label htmlFor="email">E-post</label>
         <input id="email" name="email" type="email" autoComplete="email" required placeholder="navn@eksempel.no" />
       </div>
-      <AttendanceField name="friday" title="Fredag · Pizza og bli-kjent-kveld" />
-      <AttendanceField name="saturday" title="Lørdag · Bryllupsdagen" />
+      <AttendanceField name="weekend" title="Hele bryllupshelgen · fredag til søndag" />
       <div className="field full">
         <label htmlFor="dietary">Allergier eller mathensyn</label>
         <input id="dietary" name="dietary" placeholder="La stå tomt hvis ingen" />

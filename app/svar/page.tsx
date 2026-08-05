@@ -12,7 +12,7 @@ export default function SvarPage() {
         <div className="section-heading light">
           <p className="kicker">RSVP</p>
           <h1 className="page-title">Kommer du?</h1>
-          <p>Gi oss svar for både fredag og lørdag. Du kan sende inn på nytt senere dersom planene endrer seg.</p>
+          <p>Påmeldingen gjelder hele bryllupshelgen fra fredag til søndag. Du kan sende inn på nytt senere dersom planene endrer seg.</p>
           <small>Svarfrist: {wedding.rsvpDeadline}</small>
         </div>
         <RsvpForm />
