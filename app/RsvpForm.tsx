@@ -78,7 +78,7 @@ function AttendanceField({ name, title }: { name: string; title: string }) {
     <fieldset className="attendance full">
       <legend>{title}</legend>
       <div className="choice-row">
-        {[['yes', 'Ja, jeg kommer'], ['no', 'Nei'], ['unsure', 'Usikker']].map(([value, label]) => (
+        {[['yes', 'Kommer'], ['no', 'Kommer ikke']].map(([value, label]) => (
           <label className="choice" key={value}>
             <input type="radio" name={name} value={value} required />
             <span>{label}</span>
