@@ -56,7 +56,7 @@ export function RsvpForm() {
         <label htmlFor="email">E-post</label>
         <input id="email" name="email" type="email" autoComplete="email" required placeholder="navn@eksempel.no" />
       </div>
-      <AttendanceField name="weekend" title="Hele bryllupshelgen · fredag til søndag" />
+      <AttendanceField name="weekend" title="Kommer du?" />
       <div className="field full">
         <label htmlFor="dietary">Allergier eller mathensyn</label>
         <input id="dietary" name="dietary" placeholder="La stå tomt hvis ingen" />
