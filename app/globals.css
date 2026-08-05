@@ -157,7 +157,7 @@ dt { font-size:.7rem; font-weight:750; letter-spacing:.12em; text-transform:uppe
 .qr-download { display:block; padding:0; border:0; background:transparent; cursor:pointer; line-height:0; }
 .qr-download:focus-visible { outline:2px solid var(--red); outline-offset:6px; }
 footer { padding:4rem 1.25rem; background:var(--red); color:#fff; text-align:center; }.footer-mark { margin:0 0 1rem; font-size:2rem; } footer>p:not(.footer-mark) { font-size:.9rem; }.footer-contacts,.footer-links { display:flex; flex-wrap:wrap; justify-content:center; gap:.7rem 1.5rem; margin-top:1.4rem; }.footer-contacts a,.footer-links a { border-bottom:1px solid rgba(255,255,255,.7); padding-bottom:.2rem; }.footer-links { margin-top:1.8rem; font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; }
-.guest-list { background:#fff0f5; }.guest-table { max-width:900px; margin:auto; border-top:1px solid #e3cfca; }.guest-row { display:grid; grid-template-columns:minmax(140px,1.5fr) 1fr 1fr; align-items:center; gap:1rem; min-height:64px; padding:.8rem 1rem; border-bottom:1px solid #e3cfca; }.guest-head { min-height:46px; color:#8d6e69; font-size:.7rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }.answer { width:max-content; padding:.35rem .65rem; border-radius:999px; background:#f3ecea; font-size:.72rem; }.answer.yes { background:#f7d2cd; color:#7d1c17; }.answer.no { color:#76635f; }.answer.unsure { background:#fff0d1; color:#72551e; }.empty-list { text-align:center; color:#80525c; }
+.guest-list { background:#fff0f5; }.guest-table { max-width:900px; margin:auto; border-top:1px solid #e3cfca; }.guest-row { display:grid; grid-template-columns:minmax(180px,2fr) 1fr; align-items:center; gap:1rem; min-height:64px; padding:.8rem 1rem; border-bottom:1px solid #e3cfca; }.guest-head { min-height:46px; color:#8d6e69; font-size:.7rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }.answer { width:max-content; padding:.35rem .65rem; border-radius:999px; background:#f3ecea; font-size:.72rem; }.answer.yes { background:#f7d2cd; color:#7d1c17; }.answer.no { color:#76635f; }.answer.unsure { background:#fff0d1; color:#72551e; }.empty-list { text-align:center; color:#80525c; }
 
 @media (max-width:760px) {
   .nav { height:66px; padding:0 1rem; overflow-x:auto; justify-content:flex-start; background:rgba(255,240,245,.96); border-bottom:1px solid rgba(165,35,25,.2); }
@@ -185,7 +185,7 @@ footer { padding:4rem 1.25rem; background:var(--red); color:#fff; text-align:cen
   .payment-details { padding:1.2rem 0 0; border-left:0; border-top:1px solid #dbaab3; }
   .rsvp-form { grid-template-columns:1fr; }.choice-row { grid-template-columns:1fr; }.choice span { text-align:left; padding:1rem; }
   .qr-card { flex-direction:column; gap:1.5rem; text-align:center; }.stay-row { gap:2.5rem; }
-  .guest-row { grid-template-columns:1fr 1fr; gap:.55rem; padding:1rem .25rem; }.guest-row strong { grid-column:1/-1; }.guest-head { display:none; }.answer { width:100%; text-align:center; }
+  .guest-row { grid-template-columns:1fr auto; gap:.8rem; padding:1rem .25rem; }.guest-head { display:none; }.answer { width:auto; text-align:center; }
 }
 
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition:none!important; } }
