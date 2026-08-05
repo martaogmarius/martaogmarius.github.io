@@ -2,7 +2,7 @@
 export const wedding = {
   couple: "Marius & Marta",
   date: "25.–27. juni 2027",
-  venue: "Borgo San Pietro Aquaeortus",
+  venue: "SPAO Borgo San Pietro Aquaeortus",
   place: "Allerona, Umbria, Italia",
   intro: "Vi gifter oss – og håper dere vil være med på hele helgen i Umbria.",
   checkIn: "Fredag kl. 14.00–19.00",
