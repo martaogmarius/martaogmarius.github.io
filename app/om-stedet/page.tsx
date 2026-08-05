@@ -7,7 +7,9 @@ export default function PlacePage() {
     <main className="subpage">
       <SiteNav />
       <section className="place section-pad">
-        <div className="place-art" aria-hidden="true"><strong>SPAO<br /><span>Umbria, Italia</span></strong></div>
+        <div className="place-photo">
+          <img src="/spao-borgo.jpg" alt="Borggården ved SPAO Borgo San Pietro Aquaeortus" />
+        </div>
         <div className="place-copy">
           <p className="kicker">Om stedet</p><h1 className="page-title">{wedding.venue}</h1>
           <p>Hele helgen er på SPAO Borgo San Pietro Aquaeortus i Umbria. Her skal vi spise, feire og bo sammen fra fredag til søndag.</p>

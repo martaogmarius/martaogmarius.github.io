@@ -65,8 +65,8 @@ h2 { margin:.1em 0 .35em; font-family:var(--font-serif); font-size:clamp(2.7rem,
 .day-card>p:not(.day-number):not(.day-name) { line-height:1.7; opacity:.8; }
 .day-card>span { margin-top:1.3rem; padding-top:1.3rem; border-top:1px solid currentColor; font-size:.75rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
 .place { display:grid; grid-template-columns:1fr 1fr; gap:clamp(3rem,8vw,9rem); align-items:center; background:var(--blush); }
-.place-art { min-height:520px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; background:var(--pink); color:var(--red); border:1px solid var(--red); }
-.place-art strong { margin:0; font-family:var(--font-serif); font-size:clamp(4rem,8vw,7rem); line-height:.85; letter-spacing:-.04em; }.place-art strong span { font-family:var(--font-sans); font-size:.16em; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }
+.place-photo { height:520px; overflow:hidden; border:1px solid var(--red); background:var(--pink); }
+.place-photo img { display:block; width:100%; height:100%; object-fit:cover; object-position:center; }
 .place-copy>p:not(.kicker) { max-width:550px; color:#80525c; line-height:1.8; }
 dl { margin:2.5rem 0; border-top:1px solid #e2bcc2; }
 dl div { display:grid; grid-template-columns:120px 1fr; gap:1rem; padding:1.1rem 0; border-bottom:1px solid #e2bcc2; }
@@ -131,7 +131,7 @@ footer { padding:4rem 1.25rem; background:var(--red); color:#fff; text-align:cen
   .hero-details div { min-height:78px; padding:.9rem 1rem; }
   .hero-details div+div { border-left:0; border-top:1px solid var(--red); }
   .schedule { grid-template-columns:1fr; gap:.8rem; }.day-card { min-height:360px; }.day-card.red { transform:none; }
-  .place { grid-template-columns:1fr; }.place-art { min-height:360px; }
+  .place { grid-template-columns:1fr; }.place-photo { height:360px; }
   .travel-map img { width:auto; max-width:none; height:420px; transform:translateX(-19%); }
   .travel-routes { grid-template-columns:1fr; }
   .included-grid { grid-template-columns:1fr; }
