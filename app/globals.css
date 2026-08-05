@@ -121,10 +121,10 @@ dt { font-size:.7rem; font-weight:750; letter-spacing:.12em; text-transform:uppe
 .travel-address strong { font-family:var(--font-serif); color:var(--red); font-size:1.5rem; }
 .travel-address p { margin:.5rem 0 0; color:#80525c; }
 .costs { background:#ffd2e1; }
-.cost-summary { display:grid; grid-template-columns:.75fr 1.25fr; align-items:center; gap:clamp(1.5rem,4vw,4rem); max-width:1200px; margin:2rem auto 0; padding:clamp(1.4rem,3vw,2.2rem); border:1px solid var(--red); background:var(--blush); color:var(--red); text-align:left; }
+.cost-summary { display:grid; grid-template-columns:.8fr 1.2fr; align-items:center; gap:clamp(1.5rem,4vw,4rem); max-width:1000px; margin:2.5rem auto 0; padding:1.4rem 0; border-top:1px solid #dbaab3; color:#80525c; text-align:left; }
 .cost-label { margin:0 0 .8rem; font-size:.72rem; font-weight:750; letter-spacing:.16em; text-transform:uppercase; }
-.cost-price { margin:0; font-family:var(--font-serif); font-size:clamp(2rem,4vw,3rem); font-weight:620; letter-spacing:-.04em; line-height:1; }
-.cost-price span { display:block; margin-top:.45rem; font-family:var(--font-sans); font-size:.28em; font-weight:750; letter-spacing:.14em; text-transform:uppercase; }
+.cost-price { margin:0; font-family:var(--font-sans); font-size:1rem; font-weight:400; letter-spacing:0; line-height:1.6; }
+.cost-price strong { color:var(--red); font-weight:700; }
 .payment-details { padding-left:clamp(1rem,3vw,3rem); border-left:1px solid #dbaab3; }
 .payment-details>p:first-child { margin:0; color:#80525c; }
 .bank-account { display:inline-block; margin:.45rem 0 .7rem; padding:.35rem 0; border-bottom:1px solid var(--red); font-size:clamp(1.15rem,2vw,1.45rem); font-weight:750; letter-spacing:.08em; }

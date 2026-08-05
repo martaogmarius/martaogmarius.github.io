@@ -18,8 +18,8 @@ export default function PricePage() {
         </div>
         <div className="cost-summary">
           <div>
-            <p className="cost-label">Overnatting · 2 netter</p>
-            <p className="cost-price">3 000 NOK <span>per person</span></p>
+            <p className="cost-label">Praktisk om betaling</p>
+            <p className="cost-price">Overnatting i to netter koster <strong>3 000 NOK per person.</strong></p>
           </div>
           <div className="payment-details">
             <p>Beløpet betales til vår konto:</p>
