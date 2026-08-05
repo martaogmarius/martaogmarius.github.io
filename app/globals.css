@@ -42,6 +42,13 @@ button,a { -webkit-tap-highlight-color:transparent; }
 .hero { min-height:100svh; display:grid; place-items:center; background:var(--blush); color:var(--red); overflow:hidden; border-bottom:1px solid var(--red); }
 .home-page { height:100svh; overflow:hidden; }
 .home-page .hero { height:100svh; min-height:0; }
+.home-page .hero-copy { height:100%; min-height:0; justify-content:space-evenly; padding:clamp(5rem,8svh,7rem) 1.25rem clamp(.75rem,2svh,2rem); }
+.home-page .wine-glasses { width:auto; max-width:82vw; max-height:clamp(120px,22svh,300px); margin:0 auto; }
+.home-page .hero h1 { font-size:clamp(4rem,14svh,9rem); }
+.home-page .couple-names { margin:clamp(.5rem,1.5svh,1.2rem) 0 clamp(.7rem,2svh,1.5rem); }
+.home-page .hero-details { margin:0 0 clamp(.5rem,1.5svh,1.2rem); }
+.home-page .hero-details div { min-height:0; padding:clamp(.5rem,1.2svh,.9rem) 1.25rem; }
+.home-page .primary-button { padding:clamp(.7rem,1.5svh,1rem) 1.7rem; }
 .hero-copy { display:flex; flex-direction:column; align-items:center; justify-content:center; width:100%; max-width:1000px; text-align:center; padding:8rem 1.25rem 5rem; }
 .eyebrow,.kicker { margin:0 0 1.1rem; font-size:.72rem; font-weight:700; letter-spacing:.2em; text-transform:uppercase; }
 .hero h1 { margin:0; font-family:var(--font-serif); font-size:clamp(5.8rem,12vw,11rem); font-weight:545; font-variation-settings:"SOFT" 10,"WONK" 1,"opsz" 144; letter-spacing:-.065em; line-height:.78; color:var(--red); }
