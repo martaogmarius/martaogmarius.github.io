@@ -8,7 +8,7 @@ export default function PlacePage() {
       <SiteNav />
       <section className="place section-pad">
         <div className="place-photo">
-          <img src="/spao-borgo.jpg" alt="Borggården ved SPAO Borgo San Pietro Aquaeortus" />
+          <img src="/spao-borgo-oversikt.jpg" alt="Oversiktsbilde av SPAO Borgo San Pietro Aquaeortus" />
         </div>
         <div className="place-copy">
           <p className="kicker">Om stedet</p><h1 className="page-title">{wedding.venue}</h1>
