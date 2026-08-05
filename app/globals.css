@@ -32,7 +32,9 @@ a { color:inherit; text-decoration:none; }
 button,input,textarea { font:inherit; }
 button,a { -webkit-tap-highlight-color:transparent; }
 .section-pad { padding:clamp(5rem,9vw,9rem) max(6vw,1.25rem); }
-.nav { position:absolute; inset:0 0 auto; z-index:10; height:82px; padding:0 max(5vw,1.25rem); display:flex; align-items:center; justify-content:flex-end; color:var(--red); }
+.nav { position:absolute; inset:0 0 auto; z-index:10; height:82px; padding:0 max(5vw,1.25rem); display:flex; align-items:center; justify-content:space-between; color:var(--red); }
+.nav-main { justify-content:flex-end; }
+.nav-home { flex:0 0 auto; font-size:1.8rem; line-height:1; font-weight:500; }
 .monogram,.footer-mark { font-family:var(--font-serif); font-size:1.4rem; font-weight:700; letter-spacing:.08em; }
 .monogram span,.footer-mark span { color:var(--pink); font-size:.7em; }
 .nav-links { display:flex; align-items:center; gap:2rem; font-size:.82rem; font-weight:650; letter-spacing:.06em; text-transform:uppercase; }

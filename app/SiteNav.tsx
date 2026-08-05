@@ -1,6 +1,11 @@
-export function SiteNav() {
+export function SiteNav({ showHome = true }: { showHome?: boolean }) {
   return (
-    <nav className="nav" aria-label="Hovedmeny">
+    <nav className={showHome ? "nav" : "nav nav-main"} aria-label="Hovedmeny">
+      {showHome && (
+        <a className="nav-home" href="/" aria-label="Til hovedsiden" title="Til hovedsiden">
+          ←
+        </a>
+      )}
       <div className="nav-links">
         <a href="/program">Program</a>
         <a href="/om-stedet">Om stedet</a>

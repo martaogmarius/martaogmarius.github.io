@@ -7,7 +7,7 @@ import { wedding } from "./content";
 export default function Home() {
   return (
     <main>
-      <SiteNav />
+      <SiteNav showHome={false} />
 
       <header id="top" className="hero">
         <div className="hero-copy">
