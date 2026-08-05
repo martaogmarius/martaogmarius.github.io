@@ -15,7 +15,7 @@ const serif = Fraunces({
 
 export const metadata: Metadata = {
   title: "Marius & Marta · Bryllup i Umbria",
-  description: "Velkommen til bryllupshelgen vår ved SPAO Borgo San Pietro Aquaeortus i Umbria.",
+  description: "Velkommen til bryllupshelgen vår ved Borgo San Pietro Aquaeortus i Umbria.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
