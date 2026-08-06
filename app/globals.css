@@ -108,11 +108,12 @@ dl div { display:grid; grid-template-columns:120px 1fr; gap:1rem; padding:1.1rem
 dt { font-size:.7rem; font-weight:750; letter-spacing:.12em; text-transform:uppercase; } dd { margin:0; color:#80525c; }
 .outline-button { background:transparent; border:1px solid var(--red); color:var(--red); }.place-links { display:flex; flex-wrap:wrap; gap:.6rem; }
 .travel { background:#ffe8f0; }
-.travel-map { max-width:1200px; margin:0 auto 2rem; overflow:hidden; border:1px solid var(--red); background:var(--blush); }
+.travel-map { max-width:1200px; aspect-ratio:1200/640; margin:0 auto; overflow:hidden; border:1px solid var(--red); background:var(--blush); }
 .travel-map img { display:block; width:100%; height:auto; }
+.map-credit { max-width:1200px; margin:.4rem auto 2rem; color:#9c6972; font-size:.58rem; letter-spacing:.04em; text-align:right; }
 .travel-routes { display:grid; grid-template-columns:1fr 1fr; gap:1px; max-width:1200px; margin:auto; background:var(--red); border:1px solid var(--red); }
 .travel-card { padding:clamp(2rem,4vw,3.5rem); background:var(--blush); }
-.travel-card h3 { margin:.15rem 0 .6rem; font-family:var(--font-serif); color:var(--red); font-size:clamp(2rem,4vw,3.3rem); font-weight:600; line-height:1; }
+.travel-card h3 { margin:.15rem 0 .6rem; font-family:var(--font-sans); color:var(--red); font-size:clamp(2rem,4vw,3.3rem); font-weight:780; letter-spacing:-.045em; line-height:1; }
 .travel-card>p:not(.kicker):not(.travel-time) { color:#80525c; line-height:1.75; }
 .travel-time { margin:.8rem 0 1.3rem; color:var(--red); font-weight:750; letter-spacing:.04em; }
 .travel-card .outline-button { margin-top:1rem; }
@@ -176,6 +177,7 @@ footer { padding:4rem 1.25rem; background:var(--red); color:#fff; text-align:cen
   .hero-details div+div { border-left:0; border-top:1px solid var(--red); }
   .schedule { grid-template-columns:1fr; gap:.8rem; }.day-card { min-height:360px; }.day-card.red { transform:none; }
   .place { grid-template-columns:1fr; }.place-photo { height:360px; }
+  .travel-map { height:380px; aspect-ratio:auto; }
   .travel-map img { width:auto; max-width:none; height:420px; transform:translateX(-19%); }
   .travel-routes { grid-template-columns:1fr; }
   .included-grid { grid-template-columns:1fr; }
