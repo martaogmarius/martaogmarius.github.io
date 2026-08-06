@@ -16,7 +16,7 @@ export function GuestList() {
     <section id="gjester" className="guest-list section-pad">
       <div className="section-heading">
         <p className="kicker">Gjester</p>
-        <h2>Hvem kommer?</h2>
+        <h2 className="page-title">Hvem kommer?</h2>
         <p>Her kan alle se hvem som kommer.</p>
       </div>
       {loading ? <p className="empty-list">Henter svar …</p> : guests.filter((guest) => guest.friday === "yes" || guest.saturday === "yes").length === 0 ? (
