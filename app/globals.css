@@ -160,6 +160,23 @@ dt { font-size:.75rem; font-weight:700; letter-spacing:.12em; text-transform:upp
 .qr-download:focus-visible { outline:2px solid var(--red); outline-offset:6px; }
 footer { padding:2.7rem 1.25rem; background:var(--pink); color:var(--red); text-align:center; }.footer-mark { margin:0 0 .7rem; font-family:var(--font-sans); font-size:1.45rem; font-weight:800; letter-spacing:.035em; } footer>p:not(.footer-mark) { margin:.35rem 0; font-size:.82rem; }.footer-contacts,.footer-links { display:flex; flex-wrap:wrap; justify-content:center; gap:.55rem 1.3rem; margin-top:1rem; }.footer-contacts { font-size:.9rem; font-weight:650; }.footer-contacts a,.footer-links a { border-bottom:1px solid rgba(165,35,25,.65); padding-bottom:.15rem; }.footer-links { margin-top:1.25rem; font-size:.68rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; }
 .guest-list { background:#fff0f5; }.guest-table { max-width:900px; margin:auto; border-top:1px solid #e3cfca; }.guest-row { display:grid; grid-template-columns:minmax(180px,2fr) 1fr; align-items:center; gap:1rem; min-height:64px; padding:.8rem 1rem; border-bottom:1px solid #e3cfca; }.guest-head { min-height:46px; color:#8d6e69; font-size:.7rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }.answer { width:max-content; padding:.35rem .65rem; border-radius:999px; background:#f3ecea; font-size:.72rem; }.answer.yes { background:#f7d2cd; color:#7d1c17; }.answer.no { color:#76635f; }.answer.unsure { background:#fff0d1; color:#72551e; }.empty-list { text-align:center; color:#80525c; }
+.admin-page { min-height:100svh; padding:clamp(2rem,6vw,5rem) max(5vw,1.25rem); background:var(--blush); }
+.admin-back { display:inline-block; color:var(--red); font-size:.8rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; }
+.admin-shell { max-width:960px; margin:clamp(3rem,7vw,6rem) auto 0; }
+.admin-intro { max-width:620px; color:#80525c; line-height:1.65; }
+.admin-login { display:grid; gap:.8rem; max-width:430px; margin-top:2.5rem; padding:2rem; border:1px solid var(--red); background:var(--cream); }
+.admin-login label { color:var(--red); font-size:.75rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
+.admin-login input { width:100%; padding:1rem; border:1px solid #d9aeb7; background:#fff; color:var(--ink); }
+.admin-login .primary-button { width:100%; }
+.admin-results { margin-top:3rem; }
+.admin-summary { display:flex; align-items:baseline; gap:.7rem; margin-bottom:1.5rem; color:var(--red); }
+.admin-summary strong { font-size:2.5rem; }.admin-summary span { font-size:.75rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
+.admin-guest { margin-bottom:1rem; padding:1.5rem; border:1px solid #dfb8c0; background:var(--cream); }
+.admin-guest-head { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+.admin-guest-head h2 { margin:0; color:var(--red); font-size:1.35rem; font-weight:720; letter-spacing:-.02em; }
+.admin-guest dl { margin:1.25rem 0 0; }
+.admin-guest dl div { grid-template-columns:minmax(150px,220px) 1fr; }
+.admin-results>.text-button { margin-top:1rem; }
 
 @media (max-width:760px) {
   .nav { height:66px; padding:0 1rem; overflow-x:auto; justify-content:flex-start; background:rgba(255,240,245,.96); border-bottom:1px solid rgba(165,35,25,.2); }
