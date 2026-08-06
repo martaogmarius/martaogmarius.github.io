@@ -79,7 +79,7 @@ button,a { -webkit-tap-highlight-color:transparent; }
 .welcome { text-align:center; background:#ffd2e1; }
 .kicker { color:var(--hot); }
 h2 { margin:.1em 0 .35em; font-family:var(--font-serif); font-size:clamp(2.7rem,5vw,5rem); font-weight:600; letter-spacing:-.045em; line-height:.95; }
-.page-title { margin:.1em 0 .35em; color:var(--red); font-family:var(--font-serif); font-size:clamp(2.7rem,5vw,5rem); font-weight:545; font-variation-settings:"SOFT" 10,"WONK" 1,"opsz" 144; letter-spacing:-.055em; line-height:.95; }
+.page-title { margin:.1em 0 .35em; color:var(--red); font-family:var(--font-sans); font-size:clamp(2.7rem,5vw,5rem); font-weight:750; letter-spacing:-.045em; line-height:.98; }
 .subpage { min-height:100svh; }
 .subpage>.section-pad { padding-top:clamp(8rem,12vw,11rem); }
 .lead { max-width:680px; margin:1.6rem auto 3rem; font-family:var(--font-sans); font-size:clamp(1.1rem,2vw,1.4rem); line-height:1.6; }
