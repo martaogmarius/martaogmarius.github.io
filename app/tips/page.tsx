@@ -9,11 +9,11 @@ export default function TipsPage() {
         <div className="section-heading">
           <p className="kicker">Før eller etter bryllupet</p>
           <h1 className="page-title">Tips i området</h1>
-          <p>Har dere noen ekstra dager i Italia, er disse to vakre småbyene vel verdt turen.</p>
+          <p>Har dere noen ekstra dager i Italia, er disse stedene vel verdt turen.</p>
         </div>
 
         <div className="explore-map">
-          <img src="/area-tips-map.jpg" alt="Kart som viser stedene i forhold til SPAO og flyplassene" />
+          <img src="/area-tips-map.jpg" alt="Nærkart som viser Pienza og Montepulciano i forhold til SPAO" />
         </div>
         <p className="map-credit">Omtrentlige plasseringer og kjøreavstander</p>
 
