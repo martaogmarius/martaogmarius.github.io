@@ -12,17 +12,21 @@ export default function TipsPage() {
           <p>Har dere noen ekstra dager i Italia, er disse to vakre småbyene vel verdt turen.</p>
         </div>
 
-        <div className="explore-map">
-          <img src="/area-tips-map.jpg" alt="Kart som viser Roma, Firenze, SPAO, Montepulciano og Pienza" />
+        <div className="area-overview" aria-label="Omtrentlige kjøreavstander fra SPAO">
+          <div className="area-place pienza"><strong>Pienza</strong><span>ca. 60 km</span></div>
+          <div className="area-place montepulciano"><strong>Montepulciano</strong><span>ca. 50 km</span></div>
+          <div className="area-place san-casciano"><strong>San Casciano</strong><span>ca. 15 km</span></div>
+          <div className="area-place spao"><strong>SPAO</strong><span>Her bor vi</span></div>
+          <div className="area-place orvieto"><strong>Orvieto</strong><span>ca. 35 km</span></div>
         </div>
-        <p className="map-credit">Kartdata: OpenStreetMap-bidragsytere · Ruter: OSRM</p>
+        <p className="overview-caption">Omtrentlige kjøreavstander fra SPAO</p>
 
         <div className="explore-grid">
           <article className="explore-card pink">
             <p className="kicker">Toscana</p>
             <h2>Montepulciano</h2>
             <p className="explore-time">Ca. 50 km · omtrent 1 time fra SPAO</p>
-            <p>En vakker renessanseby på en høyde, kjent for utsikten, de historiske gatene og Vino Nobile di Montepulciano. Ta turen opp til Piazza Grande og sett av tid til en rolig lunsj eller et besøk i en vinkjeller.</p>
+            <p>En fin by oppe på en høyde, kjent for god vin, små gater og flott utsikt. Gå opp til Piazza Grande, spis en rolig lunsj og stikk gjerne innom en vinkjeller.</p>
             <div className="explore-actions">
               <a className="outline-button" href="https://www.google.com/maps/dir/?api=1&origin=SPAO+Borgo+San+Pietro+Aquaeortus+Allerona&destination=Montepulciano+Italy&travelmode=driving" target="_blank" rel="noreferrer">Åpne kjørerute</a>
               <a className="text-link" href="https://www.visittuscany.com/en/towns-and-villages/montepulciano/" target="_blank" rel="noreferrer">Les mer</a>
@@ -33,7 +37,7 @@ export default function TipsPage() {
             <p className="kicker">Val d’Orcia</p>
             <h2>Pienza</h2>
             <p className="explore-time">Ca. 60 km · omtrent 1 t 10 min fra SPAO</p>
-            <p>En liten og usedvanlig vakker renessanseby midt i Val d’Orcia. Pienza står på UNESCOs verdensarvliste og byr på sjarmerende gater, vid utsikt over landskapet og områdets berømte pecorino-ost.</p>
+            <p>En liten og veldig koselig by midt i Val d’Orcia. Her får dere fine gater, skikkelig god utsikt og mye pecorino – osten området er kjent for.</p>
             <div className="explore-actions">
               <a className="outline-button" href="https://www.google.com/maps/dir/?api=1&origin=SPAO+Borgo+San+Pietro+Aquaeortus+Allerona&destination=Pienza+Italy&travelmode=driving" target="_blank" rel="noreferrer">Åpne kjørerute</a>
               <a className="text-link" href="https://www.pienzawelcome.it/en/" target="_blank" rel="noreferrer">Les mer</a>
@@ -44,7 +48,7 @@ export default function TipsPage() {
             <p className="kicker">Umbria</p>
             <h2>Orvieto</h2>
             <p className="explore-time">Ca. 35 km · omtrent 45 min fra SPAO</p>
-            <p>En skikkelig fin by å rusle rundt i, med små gater, hyggelige spisesteder og en ganske utrolig katedral midt i byen. Under Orvieto finnes det også et nettverk av gamle tunneler og rom som kan besøkes med guide.</p>
+            <p>En skikkelig fin by å rusle rundt i, med små gater, hyggelige spisesteder og en ganske utrolig katedral. Under byen finnes det også gamle tunneler og rom som kan besøkes med guide.</p>
             <div className="explore-actions">
               <a className="outline-button" href="https://www.google.com/maps/dir/?api=1&origin=SPAO+Borgo+San+Pietro+Aquaeortus+Allerona&destination=Orvieto+Italy&travelmode=driving" target="_blank" rel="noreferrer">Åpne kjørerute</a>
               <a className="text-link" href="https://www.umbriatourism.it/en/orvietano" target="_blank" rel="noreferrer">Les mer</a>

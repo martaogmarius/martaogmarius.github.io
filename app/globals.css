@@ -125,6 +125,19 @@ dt { font-size:.75rem; font-weight:700; letter-spacing:.12em; text-transform:upp
 .explore { background:#ffe8f0; }
 .explore-map { max-width:1200px; aspect-ratio:1200/680; margin:0 auto; overflow:hidden; border:1px solid var(--red); background:var(--blush); }
 .explore-map img { display:block; width:100%; height:100%; object-fit:cover; }
+.area-overview { position:relative; max-width:1000px; height:480px; margin:0 auto; overflow:hidden; border:1px solid var(--red); background:radial-gradient(circle at 52% 58%,#ff9fbd 0 4%,transparent 4.3%),linear-gradient(145deg,#ffe8f0 0 48%,#ffd2e1 48% 100%); }
+.area-overview:before,.area-overview:after { content:""; position:absolute; width:70%; height:1px; left:15%; top:50%; background:rgba(165,35,25,.25); transform:rotate(-18deg); }
+.area-overview:after { transform:rotate(21deg); }
+.area-place { position:absolute; z-index:1; display:flex; min-width:145px; padding:.85rem 1rem; flex-direction:column; gap:.2rem; border:1px solid var(--red); background:var(--cream); color:var(--red); }
+.area-place strong { font-size:.88rem; font-weight:750; letter-spacing:.03em; }
+.area-place span { color:#80525c; font-size:.7rem; }
+.area-place.pienza { left:9%; top:13%; }
+.area-place.montepulciano { left:45%; top:8%; }
+.area-place.san-casciano { left:18%; top:47%; }
+.area-place.spao { left:48%; top:52%; background:var(--red); color:#fff; transform:translate(-50%,-50%); }
+.area-place.spao span { color:#ffd2e1; }
+.area-place.orvieto { right:10%; bottom:13%; }
+.overview-caption { margin:.6rem auto 2rem; color:#80525c; font-size:.72rem; text-align:center; }
 .explore-grid { display:grid; grid-template-columns:1fr 1fr; gap:1px; max-width:1200px; margin:auto; background:var(--red); border:1px solid var(--red); }
 .explore-card { min-height:420px; padding:clamp(2rem,4vw,3.5rem); display:flex; flex-direction:column; }
 .explore-card.pink { background:var(--pink); }
@@ -213,6 +226,10 @@ footer { padding:2.7rem 1.25rem; background:var(--pink); color:var(--red); text-
   .travel-routes { grid-template-columns:1fr; }
   .explore-map { height:390px; aspect-ratio:auto; }
   .explore-map img { width:auto; max-width:none; height:100%; transform:translateX(-21%); }
+  .area-overview { height:auto; padding:1rem; display:grid; grid-template-columns:1fr; gap:.7rem; background:#ffd2e1; }
+  .area-overview:before,.area-overview:after { display:none; }
+  .area-place,.area-place.pienza,.area-place.montepulciano,.area-place.san-casciano,.area-place.spao,.area-place.orvieto { position:static; min-width:0; transform:none; }
+  .area-place.spao { order:-1; }
   .explore-grid { grid-template-columns:1fr; }
   .explore-card { min-height:390px; }
   .included-grid { grid-template-columns:1fr; }
