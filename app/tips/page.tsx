@@ -12,14 +12,10 @@ export default function TipsPage() {
           <p>Har dere noen ekstra dager i Italia, er disse to vakre småbyene vel verdt turen.</p>
         </div>
 
-        <div className="area-overview" aria-label="Omtrentlige kjøreavstander fra SPAO">
-          <div className="area-place pienza"><strong>Pienza</strong><span>ca. 60 km</span></div>
-          <div className="area-place montepulciano"><strong>Montepulciano</strong><span>ca. 50 km</span></div>
-          <div className="area-place san-casciano"><strong>San Casciano</strong><span>ca. 15 km</span></div>
-          <div className="area-place spao"><strong>SPAO</strong><span>Her bor vi</span></div>
-          <div className="area-place orvieto"><strong>Orvieto</strong><span>ca. 35 km</span></div>
+        <div className="explore-map">
+          <img src="/area-tips-map.jpg" alt="Kart som viser stedene i forhold til SPAO og flyplassene" />
         </div>
-        <p className="overview-caption">Omtrentlige kjøreavstander fra SPAO</p>
+        <p className="map-credit">Omtrentlige plasseringer og kjøreavstander</p>
 
         <div className="explore-grid">
           <article className="explore-card pink">
