@@ -39,6 +39,28 @@ export default function TipsPage() {
               <a className="text-link" href="https://www.pienzawelcome.it/en/" target="_blank" rel="noreferrer">Les mer</a>
             </div>
           </article>
+
+          <article className="explore-card cream">
+            <p className="kicker">Umbria</p>
+            <h2>Orvieto</h2>
+            <p className="explore-time">Ca. 35 km · omtrent 45 min fra SPAO</p>
+            <p>En skikkelig fin by å rusle rundt i, med små gater, hyggelige spisesteder og en ganske utrolig katedral midt i byen. Under Orvieto finnes det også et nettverk av gamle tunneler og rom som kan besøkes med guide.</p>
+            <div className="explore-actions">
+              <a className="outline-button" href="https://www.google.com/maps/dir/?api=1&origin=SPAO+Borgo+San+Pietro+Aquaeortus+Allerona&destination=Orvieto+Italy&travelmode=driving" target="_blank" rel="noreferrer">Åpne kjørerute</a>
+              <a className="text-link" href="https://www.umbriatourism.it/en/orvietano" target="_blank" rel="noreferrer">Les mer</a>
+            </div>
+          </article>
+
+          <article className="explore-card pink">
+            <p className="kicker">Toscana</p>
+            <h2>San Casciano dei Bagni</h2>
+            <p className="explore-time">Ca. 15 km · omtrent 25 min fra SPAO</p>
+            <p>En liten og rolig landsby som er kjent for de varme kildene sine. Her kan dere kombinere en tur gjennom byen med et bad i de gamle utendørsbassengene – ta med badetøy.</p>
+            <div className="explore-actions">
+              <a className="outline-button" href="https://www.google.com/maps/dir/?api=1&origin=SPAO+Borgo+San+Pietro+Aquaeortus+Allerona&destination=San+Casciano+dei+Bagni+Italy&travelmode=driving" target="_blank" rel="noreferrer">Åpne kjørerute</a>
+              <a className="text-link" href="https://www.visittuscany.com/en/towns-and-villages/san-casciano-dei-bagni/" target="_blank" rel="noreferrer">Les mer</a>
+            </div>
+          </article>
         </div>
         <p className="explore-note">Kjøretidene er omtrentlige. Beregn litt ekstra tid på de mindre veiene.</p>
       </section>
