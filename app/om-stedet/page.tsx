@@ -19,7 +19,7 @@ export default function PlacePage() {
             <div><dt>Ved ankomst</dt><dd>Ta med pass eller gyldig legitimasjon. SPAO kan også be om kredittkort som garanti for eventuelle skader.</dd></div>
             <div><dt>Mat og drikke</dt><dd>Medbrakt mat og drikke er ikke tillatt på stedet.</dd></div>
             <div><dt>Kjæledyr</dt><dd>Kjæledyr er ikke tillatt.</dd></div>
-            <div><dt>Basseng</dt><dd>Åpent kl. 09.00–19.00. Barn må alltid være under oppsyn av en voksen.</dd></div>
+            <div><dt>Basseng</dt><dd>Åpent kl. 09.00–19.00.</dd></div>
           </dl>
           <div className="place-links"><a className="outline-button" href={wedding.mapUrl} target="_blank" rel="noreferrer">Kart</a><a className="outline-button" href={wedding.venueUrl} target="_blank" rel="noreferrer">Nettside</a><a className="outline-button" href={wedding.instagramUrl} target="_blank" rel="noreferrer">Instagram</a></div>
         </div>
