@@ -10,6 +10,7 @@ export default function TipsPage() {
           <p className="kicker">Før eller etter bryllupet</p>
           <h1 className="page-title">Tips i området</h1>
           <p>Har dere noen ekstra dager i Italia, er disse stedene vel verdt turen.</p>
+          <p>Vi har vært i Pienza og Montepulciano, og synes begge byene var helt nydelige og absolutt verdt en tur.</p>
         </div>
 
         <div className="explore-map">
