@@ -6,7 +6,7 @@ export default function TravelPage() {
     <main className="subpage">
       <SiteNav />
       <section className="travel section-pad">
-        <div className="section-heading"><p className="kicker">Reise</p><h1 className="page-title">Hvordan komme seg dit?</h1><p>Det enkleste er å fly til Roma eller Firenze og leie bil videre til SPAO. Beregn litt ekstra tid ved mye trafikk.</p></div>
+        <div className="section-heading"><p className="kicker">Reise</p><h1 className="page-title">Hvordan komme seg dit?</h1><p>Det enkleste er å fly til Roma eller Firenze og leie bil videre til SPAO. Dere ordner transport til stedet selv, og vi anbefaler gjerne samkjøring. Beregn litt ekstra tid ved mye trafikk.</p></div>
         <div className="travel-map"><img src="/travel-map.jpg" alt="Kart som viser kjørerutene fra flyplassene i Roma og Firenze til SPAO i Umbria" /></div>
         <p className="map-credit">Kartdata: OpenStreetMap-bidragsytere · Ruter: OSRM</p>
         <div className="travel-routes">

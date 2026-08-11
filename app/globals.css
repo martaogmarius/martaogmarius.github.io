@@ -170,6 +170,9 @@ dt { font-size:.75rem; font-weight:700; letter-spacing:.12em; text-transform:upp
 .rsvp { background:var(--red); color:#fff; }
 .light .kicker { color:var(--pink); }.light>p:not(.kicker),.light small { color:#efd2d7; }.light small { display:block; margin-top:1rem; }
 .rsvp-form { display:grid; grid-template-columns:1fr 1fr; gap:1.3rem; max-width:780px; margin:auto; padding:clamp(1.5rem,4vw,3.5rem); background:#fff8f4; color:var(--ink); }
+.rsvp-payment-card { max-width:780px; margin:1.2rem auto 0; padding:clamp(1.5rem,3vw,2.3rem); border:1px solid #f0b8c3; background:#fff8f4; color:var(--ink); text-align:center; }
+.rsvp-payment-card>p { margin:.45rem auto; max-width:620px; line-height:1.6; }
+.rsvp-payment-card .bank-account { color:var(--red); }
 .full { grid-column:1/-1; }.field label,.attendance legend { display:block; margin-bottom:.6rem; font-size:.76rem; font-weight:750; letter-spacing:.04em; }
 .field input,.field textarea { width:100%; padding:1rem; border:1px solid #e4c9c9; border-radius:0; outline:none; background:#fff; }
 .field input:focus,.field textarea:focus { border-color:var(--hot); box-shadow:0 0 0 3px #f8b6c455; }

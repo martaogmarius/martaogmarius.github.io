@@ -22,8 +22,7 @@ export default function PricePage() {
             <p className="cost-price">Overnatting i to netter koster <strong>3 000 NOK per person.</strong></p>
           </div>
           <div className="payment-details">
-            <p>Beløpet betales til vår konto:</p>
-            <p className="bank-account">6032.54.88487</p>
+            <p>Kontonummer og betalingsinformasjon finner dere på RSVP-siden.</p>
             <p className="binding-note">Endelig og bindende RSVP gjelder når beløpet er innbetalt.</p>
           </div>
         </div>
