@@ -12,7 +12,7 @@ export default function SvarPage() {
         <div className="section-heading light">
           <p className="kicker">RSVP</p>
           <h1 className="page-title">Kommer du?</h1>
-          <p>Påmeldingen gjelder hele bryllupshelgen fra fredag til søndag. Invitasjonen gjelder kun personene som er navngitt på konvolutten. Oppgi allergier eller mathensyn i skjemaet, så sørger vi for at dette blir tatt hensyn til i menyen.</p>
+          <p>Dette er påmeldingen til hele bryllupshelgen. Endelig og bindende RSVP registreres først når beløpet per person er innbetalt til kontoen du finner nederst på denne siden. Når dere har fylt inn navn her, kan andre gjester se navnet eller navnene under «Hvem kommer?». Kun navnene vises – øvrige opplysninger er private.</p>
           <small>Svarfrist: {wedding.rsvpDeadline}</small>
         </div>
         <RsvpForm />
