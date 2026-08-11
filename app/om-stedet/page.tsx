@@ -13,7 +13,14 @@ export default function PlacePage() {
         <div className="place-copy">
           <p className="kicker">Om stedet</p><h1 className="page-title">{wedding.venue}</h1>
           <p>Hele helgen er på SPAO Borgo San Pietro Aquaeortus i Umbria. Her skal vi spise, feire og bo sammen fra fredag til søndag.</p>
-          <dl><div><dt>Område</dt><dd>{wedding.place}</dd></div><div><dt>Overnatting</dt><dd>Praktisk informasjon kommer</dd></div><div><dt>Reise</dt><dd>Se egen side for flyplasser og kjøreruter</dd></div></dl>
+          <dl className="practical-info">
+            <div><dt>Innsjekk</dt><dd>Fredag kl. 14.00–19.00</dd></div>
+            <div><dt>Utsjekk</dt><dd>Søndag før kl. 11.00</dd></div>
+            <div><dt>Ved ankomst</dt><dd>Ta med pass eller gyldig legitimasjon. SPAO kan også be om kredittkort som garanti for eventuelle skader.</dd></div>
+            <div><dt>Mat og drikke</dt><dd>Medbrakt mat og drikke er ikke tillatt på stedet.</dd></div>
+            <div><dt>Kjæledyr</dt><dd>Kjæledyr er ikke tillatt.</dd></div>
+            <div><dt>Basseng</dt><dd>Åpent kl. 09.00–19.00. Barn må alltid være under oppsyn av en voksen.</dd></div>
+          </dl>
           <div className="place-links"><a className="outline-button" href={wedding.mapUrl} target="_blank" rel="noreferrer">Kart</a><a className="outline-button" href={wedding.venueUrl} target="_blank" rel="noreferrer">Nettside</a><a className="outline-button" href={wedding.instagramUrl} target="_blank" rel="noreferrer">Instagram</a></div>
         </div>
       </section>
