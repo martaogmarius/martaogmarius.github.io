@@ -16,7 +16,7 @@ export default function PlacePage() {
           <dl className="practical-info">
             <div><dt>Innsjekk</dt><dd>Fredag kl. 14.00–19.00</dd></div>
             <div><dt>Utsjekk</dt><dd>Søndag før kl. 11.00</dd></div>
-            <div><dt>Overnatting</dt><dd>Alle gjestene bor på SPAO fra fredag til søndag. Vi fordeler rommene etter at svar og betaling er registrert, og sender mer informasjon når romfordelingen er klar. Dere trenger derfor ikke kontakte SPAO for å bestille overnatting.</dd></div>
+            <div><dt>Overnatting</dt><dd>Alle gjestene bor på SPAO fra fredag til søndag. Vi ordner med romfordeling. Dere trenger derfor ikke kontakte SPAO for å bestille overnatting.</dd></div>
             <div><dt>Ved ankomst</dt><dd>Ta med pass eller gyldig legitimasjon. SPAO kan også be om kredittkort som garanti for eventuelle skader.</dd></div>
             <div><dt>Mat og drikke</dt><dd>Medbrakt mat og drikke er ikke tillatt på stedet.</dd></div>
             <div><dt>Kjæledyr</dt><dd>Kjæledyr er ikke tillatt.</dd></div>
