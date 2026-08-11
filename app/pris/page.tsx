@@ -16,6 +16,7 @@ export default function PricePage() {
           <article className="included-card featured"><p className="day-name">Lørdag</p><ul><li>Frokost er inkludert.</li><li>Middag med tilhørende vin, øl og alkoholfrie alternativer er inkludert.</li><li>Mat og drikke utenom bryllupsarrangementet kan kjøpes direkte fra SPAO.</li></ul></article>
           <article className="included-card"><p className="day-name">Søndag</p><ul><li>Frokost er inkludert.</li></ul></article>
         </div>
+        <p>SPAO har restaurant og bar, hvor dere kan kjøpe mat og drikke gjennom helgen dersom dere ønsker noe utenom de planlagte måltidene.</p>
         <div className="cost-summary">
           <div>
             <p className="cost-label">Praktisk om betaling</p>
