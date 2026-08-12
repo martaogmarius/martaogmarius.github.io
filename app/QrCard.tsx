@@ -8,7 +8,7 @@ export function QrCard() {
 
   useEffect(() => {
     if (!canvas.current) return;
-    QRCode.toCanvas(canvas.current, window.location.origin, {
+    QRCode.toCanvas(canvas.current, "https://martaogmarius.github.io/", {
       width: 180,
       margin: 1,
       color: { dark: "#a52319", light: "#fff0f5" },
