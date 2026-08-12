@@ -13,9 +13,15 @@
   </head>
   <body>
     <iframe
+      id="wedding-site"
       src="https://marta-marius-umbria-2027.syrupy-tapir-2234.chatgpt.site/"
       title="Marta og Marius – bryllup i Umbria"
       allow="clipboard-write"
     ></iframe>
+    <script>
+      document.getElementById("wedding-site").src =
+        "https://marta-marius-umbria-2027.syrupy-tapir-2234.chatgpt.site" +
+        location.pathname + location.search + location.hash;
+    </script>
   </body>
 </html>
