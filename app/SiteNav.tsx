@@ -11,7 +11,7 @@ export function SiteNav({ showHome = true }: { showHome?: boolean }) {
         <a href="/om-stedet">Om stedet</a>
         <a href="/reise">Hvordan komme seg dit?</a>
         <a href="/tips">Tips i området</a>
-        <a href="/pris">Hva koster det?</a>
+        <a href="/pris">Hva er inkludert?</a>
         <a href="/gjester">Hvem kommer?</a>
       </div>
     </nav>
