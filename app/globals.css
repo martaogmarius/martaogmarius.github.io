@@ -168,6 +168,8 @@ dt { font-size:.75rem; font-weight:700; letter-spacing:.12em; text-transform:upp
 .included-card .day-name { margin:0 0 1.6rem; color:inherit; }
 .included-card ul { margin:0; padding-left:1.2rem; }
 .included-card li { margin-bottom:1rem; line-height:1.65; }
+.included-note { max-width:1200px; margin:0 auto; padding:1.25rem clamp(1.5rem,4vw,3rem); border:0 solid var(--red); border-width:0 1px 1px; background:#fbd8e2; text-align:center; }
+.included-note p { max-width:860px; margin:0 auto; color:#80525c; line-height:1.65; }
 .rsvp { background:var(--red); color:#fff; }
 .light .kicker { color:var(--pink); }.light>p:not(.kicker),.light small { color:#efd2d7; }.light small { display:block; margin-top:1rem; }
 .rsvp-form { display:grid; grid-template-columns:1fr 1fr; gap:1.3rem; max-width:780px; margin:auto; padding:clamp(1.5rem,4vw,3.5rem); background:#fff8f4; color:var(--ink); }
