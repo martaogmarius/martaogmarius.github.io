@@ -19,9 +19,7 @@ export function GuestList() {
         <h2 className="page-title">Hvem kommer?</h2>
         <p>Her kan alle se hvem som kommer.</p>
       </div>
-      {loading ? <p className="empty-list">Henter svar …</p> : guests.filter((guest) => guest.friday === "yes" || guest.saturday === "yes").length === 0 ? (
-        <p className="empty-list">Ingen svar ennå. Bli den første!</p>
-      ) : (
+      {loading ? <p className="empty-list">Henter svar …</p> : guests.filter((guest) => guest.friday === "yes" || guest.saturday === "yes").length === 0 ? null : (
         <div className="guest-table" role="table" aria-label="Svar fra gjestene">
           <div className="guest-row guest-head" role="row"><span>Navn</span><span>Status</span></div>
           {guests.filter((guest) => guest.friday === "yes" || guest.saturday === "yes").map((guest, index) => (
