@@ -29,6 +29,11 @@ export default function ProgramPage() {
             <span>Søndag 27. juni</span>
           </article>
         </div>
+        <aside className="toastmasters-card">
+          <p className="kicker">Praktisk informasjon</p>
+          <h2>Toastmastere</h2>
+          <p>Navn og kontaktinformasjon kommer.</p>
+        </aside>
       </section>
       <SiteFooter />
     </main>
