@@ -12,7 +12,7 @@ export default function PricePage() {
           <p>Dette er inkludert i løpet av bryllupshelgen – og hva du eventuelt betaler for selv.</p>
         </div>
         <div className="included-grid">
-          <article className="included-card"><p className="day-name">Fredag</p><ul><li>Pizza og alkoholfri drikke er inkludert.</li><li>Øl, vin eller annen alkohol denne kvelden kjøpes av den enkelte.</li></ul></article>
+          <article className="included-card"><p className="day-name">Fredag</p><ul><li>Pizza, vann, vin og én øl per person er inkludert.</li><li>Annen drikke kan kjøpes fra SPAO.</li></ul></article>
           <article className="included-card featured"><p className="day-name">Lørdag</p><ul><li>Frokost er inkludert.</li><li>Middag med tilhørende vin, øl og alkoholfrie alternativer er inkludert.</li><li>Mat og drikke utenom bryllupsarrangementet kan kjøpes direkte fra SPAO.</li></ul></article>
           <article className="included-card"><p className="day-name">Søndag</p><ul><li>Frokost er inkludert.</li></ul></article>
         </div>

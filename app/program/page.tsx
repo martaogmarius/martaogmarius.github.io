@@ -15,7 +15,7 @@ export default function ProgramPage() {
         <div className="schedule">
           <article className="day-card pink">
             <p className="day-number">25</p><p className="day-name">Fredag · juni</p>
-            <div className="day-card-copy"><h3>Pizza & bli kjent</h3><p>Innsjekk fra kl. 14.00. Vi sparker i gang bryllupshelgen med pizza party kl. 18.00.</p></div>
+            <div className="day-card-copy"><h3>Pizza & bli kjent</h3><p>Innsjekk fra kl. 14.00. Vi anbefaler at alle ankommer senest kl. 17.00, slik at dere rekker å finne rommet og gjøre dere klare. Vi sparker i gang bryllupshelgen med pizzafest kl. 18.00.</p></div>
             <span>{wedding.fridayTime}</span>
           </article>
           <article className="day-card red">
