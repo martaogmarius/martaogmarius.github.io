@@ -19,16 +19,6 @@ export default function PricePage() {
         <div className="included-note">
           <p>SPAO har restaurant og bar, hvor dere kan kjøpe mat og drikke gjennom helgen dersom dere ønsker noe utenom de planlagte måltidene.</p>
         </div>
-        <div className="cost-summary">
-          <div>
-            <p className="cost-label">Praktisk om betaling</p>
-            <p className="cost-price">Overnatting i to netter koster <strong>3 000 NOK per person.</strong></p>
-          </div>
-          <div className="payment-details">
-            <p>Kontonummer og betalingsinformasjon finner dere på RSVP-siden.</p>
-            <p className="binding-note">Endelig og bindende RSVP gjelder når beløpet er innbetalt.</p>
-          </div>
-        </div>
       </section>
       <SiteFooter />
     </main>

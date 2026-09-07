@@ -14,7 +14,6 @@ export default function Home() {
             <div><span>Lørdag</span><strong>26. juni 2027</strong></div>
             <div><span>SPAO Borgo San Pietro Aquaeortus</span><strong>Umbria, Italia</strong></div>
           </div>
-          <a className="primary-button" href="/svar">Svar her</a>
         </div>
       </header>
     </main>

@@ -17,7 +17,8 @@ export function GuestList() {
       <div className="section-heading">
         <p className="kicker">Gjester</p>
         <h2 className="page-title">Hvem kommer?</h2>
-        <p>Her kan alle se hvem som kommer.</p>
+        <p>Skriv ditt/deres navn dersom du/dere planlegger å komme, slik at andre gjester kan se det. Dette er ikke en bindende påmelding – just for fun.</p>
+        <a className="primary-button guest-rsvp-button" href="/svar">Svar her</a>
       </div>
       {loading ? <p className="empty-list">Henter svar …</p> : guests.filter((guest) => guest.friday === "yes" || guest.saturday === "yes").length === 0 ? null : (
         <div className="guest-table" role="table" aria-label="Svar fra gjestene">
