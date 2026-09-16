@@ -174,9 +174,7 @@ dt { font-size:.75rem; font-weight:700; letter-spacing:.12em; text-transform:upp
 .payment-details { padding-left:clamp(1rem,3vw,3rem); border-left:1px solid #dbaab3; }
 .payment-details>p:first-child { margin:0; color:#80525c; }
 .accommodation { background:#ffd2e1; }
-.accommodation-details { display:grid; grid-template-columns:1fr 1fr; gap:clamp(3rem,8vw,8rem); max-width:1050px; margin:0 auto; padding:clamp(2rem,4vw,3.5rem) 0; border-top:1px solid #dbaab3; border-bottom:1px solid #dbaab3; }
-.accommodation-details section { max-width:460px; }
-.accommodation-details section:last-child { justify-self:end; }
+.accommodation-details { max-width:650px; margin:0 auto; padding:clamp(2rem,4vw,3.5rem) 0; border-top:1px solid #dbaab3; border-bottom:1px solid #dbaab3; }
 .accommodation-details h2 { margin:.5rem 0 1.25rem; color:var(--red); font-family:var(--font-display); font-size:clamp(1.8rem,3vw,2.8rem); line-height:1.05; }
 .accommodation-details p { color:#80525c; line-height:1.7; }
 .accommodation-account { margin:.2rem 0 0; color:var(--red)!important; font-size:clamp(1.5rem,2.5vw,2.2rem); font-weight:800; letter-spacing:.06em; }
@@ -275,8 +273,6 @@ footer { padding:2.7rem 1.25rem; background:var(--pink); color:var(--red); text-
   .included-card+.included-card { border-left:0; border-top:1px solid var(--red); }
   .cost-summary { grid-template-columns:1fr; }
   .payment-details { padding:1.2rem 0 0; border-left:0; border-top:1px solid #dbaab3; }
-  .accommodation-details { grid-template-columns:1fr; gap:2.5rem; }
-  .accommodation-details section:last-child { justify-self:start; }
   .rsvp-form { grid-template-columns:1fr; }.choice-row { grid-template-columns:1fr; }.choice span { text-align:left; padding:1rem; }
   .qr-card { flex-direction:column; gap:1.5rem; text-align:center; }.stay-row { gap:2.5rem; }
   .guest-row { grid-template-columns:1fr auto; gap:.8rem; padding:1rem .25rem; }.guest-head { display:none; }.answer { width:auto; text-align:center; }
