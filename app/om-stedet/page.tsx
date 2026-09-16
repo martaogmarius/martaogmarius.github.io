@@ -17,6 +17,7 @@ export default function PlacePage() {
             <div><dt>Innsjekk</dt><dd>Fredag kl. 14.00–19.00</dd></div>
             <div><dt>Utsjekk</dt><dd>Søndag før kl. 11.00</dd></div>
             <div><dt>Overnatting</dt><dd>Alle gjestene bor sammen med oss på SPAO fra fredag til søndag. Overnattingen er fordelt på ulike leiligheter med separate soverom, bad og felles oppholdsrom. Vi fordeler rommene på forhånd og setter sammen familie og venner der det passer naturlig. Dere trenger derfor ikke kontakte SPAO for å bestille overnatting.</dd></div>
+            <div><dt>Pris</dt><dd>3000 kr per pers.</dd></div>
             <div><dt>Ved ankomst</dt><dd>Ta med pass eller gyldig legitimasjon. SPAO kan også be om kredittkort som garanti for eventuelle skader.</dd></div>
             <div><dt>Mat og drikke</dt><dd>Medbrakt mat og drikke er ikke tillatt på stedet.</dd></div>
             <div><dt>Kjæledyr</dt><dd>Kjæledyr er ikke tillatt.</dd></div>
