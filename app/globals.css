@@ -175,6 +175,7 @@ dt { font-size:.75rem; font-weight:700; letter-spacing:.12em; text-transform:upp
 .accommodation-details h2 { margin:.5rem 0 1.25rem; color:var(--red); font-family:var(--font-display); font-size:clamp(1.8rem,3vw,2.8rem); line-height:1.05; }
 .accommodation-details p { color:#80525c; line-height:1.7; }
 .accommodation-account { margin:.2rem 0 0; color:var(--red)!important; font-size:clamp(1.5rem,2.5vw,2.2rem); font-weight:800; letter-spacing:.06em; }
+.subpage .section-heading > .gift-note,.subpage .rsvp-payment-card > .gift-note { margin:1.4rem auto 0; max-width:680px; color:var(--red); font-weight:700; line-height:1.6; }
 .bank-account { display:inline-block; margin:.45rem 0 .7rem; padding:.35rem 0; border-bottom:1px solid var(--red); font-size:clamp(1.15rem,2vw,1.45rem); font-weight:700; letter-spacing:.08em; }
 .binding-note { max-width:560px; margin:0; color:#80525c; line-height:1.55; }
 .included-heading { max-width:700px; margin:0 auto 2rem; text-align:center; }
