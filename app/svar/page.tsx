@@ -22,7 +22,6 @@ export default function SvarPage() {
           <p>Beløpet betales til vår konto:</p>
           <p className="bank-account">6032.54.88487</p>
           <p>Påmeldingen er endelig og bindende når betalingen er registrert. Romfordelingen gjøres etter at gjestene har svart og betalt.</p>
-          <p className="gift-note">Vi ønsker oss ingen bryllupsgaver – det er mer enn nok at dere kommer og feirer med oss.</p>
         </div>
       </section>
       <section className="qr-section section-pad"><QrCard /></section>

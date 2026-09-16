@@ -9,7 +9,7 @@ export default function AccommodationPage() {
         <div className="section-heading">
           <h1 className="page-title">Overnatting og RSVP</h1>
           <p>Overnattingen betales av hver gjest. Endelig og bindende RSVP gjelder først når betalingen er gjennomført.</p>
-          <p className="gift-note">Vi ønsker oss ingen bryllupsgaver. At dere kommer og feirer sammen med oss, er mer enn nok – dere trenger ikke tenke på en gave i tillegg til reise og overnatting.</p>
+          <p className="gift-note">Vi ønsker oss ingen gaver. Det viktigste for oss er at dere kommer og feirer sammen med oss.</p>
         </div>
 
         <div className="accommodation-details">
