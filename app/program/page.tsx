@@ -32,7 +32,12 @@ export default function ProgramPage() {
         <aside className="toastmasters-card">
           <p className="kicker">Praktisk informasjon</p>
           <h2>Toastmastere</h2>
-          <p>Dersom du ønsker å si noen ord under bryllupet, kan du ta kontakt med en av våre toastmastere: Petter Volden eller Oda Winum Solem.</p>
+          <p>Dersom du ønsker å si noen ord under bryllupet, kan du ta kontakt med en av våre toastmastere:</p>
+          <p className="toastmasters-contacts">
+            <span><strong>Petter Volden</strong> (<a href="tel:+4741562006">415 62 006</a>)</span>
+            <span className="toastmasters-or">eller</span>
+            <span><strong>Oda Winum Solem</strong> (<a href="tel:+4798068221">980 68 221</a>)</span>
+          </p>
         </aside>
       </section>
       <SiteFooter />
