@@ -20,7 +20,11 @@ export default function ProgramPage() {
           </article>
           <article className="day-card red">
             <p className="day-number">26</p><p className="day-name">Lørdag · juni</p>
-            <div className="day-card-copy"><h3>Bryllupsdagen</h3><p>Vielse, middag og fest. Antrekk: sommerlig pent.</p></div>
+            <div className="day-card-copy">
+              <h3>Bryllupsdagen</h3>
+              <p>Vielse, middag og fest.</p>
+              <p className="day-card-attire"><strong>Antrekk:</strong> sommerlig pent.</p>
+            </div>
             <span>{wedding.saturdayTime}</span>
           </article>
           <article className="day-card cream">
