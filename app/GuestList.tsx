@@ -17,7 +17,7 @@ export function GuestList() {
       <div className="section-heading">
         <p className="kicker">Gjester</p>
         <h2 className="page-title">Hvem kommer?</h2>
-        <p>Svar her om du kommer eller ikke. Navnet ditt blir synlig for andre gjester, men ikke resterende informasjon (allergier o.l.). Her kan gjestene få innblikk i hvem andre som kommer.</p>
+        <p>Svar her om du kommer eller ikke. Navnet ditt blir synlig for andre gjester, men ikke resterende informasjon (kontaktinformasjon, allergier osv). Her kan gjestene få innblikk i hvem andre som kommer.</p>
         <p className="guest-rsvp-note">Obs: Dette er ikke RSVP/bindende påmelding</p>
         <a className="primary-button guest-rsvp-button" href="/svar">Svar her</a>
       </div>
