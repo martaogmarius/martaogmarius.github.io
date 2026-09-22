@@ -16,6 +16,7 @@ export function RsvpForm() {
     const body = {
       name: String(form.get("name") || ""),
       email: String(form.get("email") || ""),
+      phone: String(form.get("phone") || ""),
       friday: weekend,
       saturday: weekend,
       dietary: String(form.get("dietary") || ""),
@@ -55,6 +56,10 @@ export function RsvpForm() {
       <div className="field full">
         <label htmlFor="email">E-post</label>
         <input id="email" name="email" type="email" autoComplete="email" required placeholder="navn@eksempel.no" />
+      </div>
+      <div className="field full">
+        <label htmlFor="phone">Telefonnummer</label>
+        <input id="phone" name="phone" type="tel" inputMode="tel" autoComplete="tel" required placeholder="For eksempel 415 62 006" />
       </div>
       <AttendanceField name="weekend" title="Kommer du?" />
       <div className="field full">

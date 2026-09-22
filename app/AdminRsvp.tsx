@@ -5,6 +5,7 @@ import { FormEvent, useState } from "react";
 type Guest = {
   name: string;
   email: string;
+  phone: string;
   friday: "yes" | "no" | "unsure";
   saturday: "yes" | "no" | "unsure";
   dietary: string;
@@ -60,6 +61,7 @@ export function AdminRsvp() {
             <div className="admin-guest-head"><h2>{guest.name}</h2><span className={`answer ${attending ? "yes" : "no"}`}>{attending ? "Kommer" : "Kommer ikke"}</span></div>
             <dl>
               <div><dt>E-post</dt><dd>{guest.email}</dd></div>
+              <div><dt>Telefonnummer</dt><dd>{guest.phone || "Ikke oppgitt"}</dd></div>
               <div><dt>Allergier / mathensyn</dt><dd>{guest.dietary || "Ikke oppgitt"}</dd></div>
               <div><dt>Annen informasjon</dt><dd>{guest.note || "Ikke oppgitt"}</dd></div>
             </dl>

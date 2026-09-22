@@ -4,6 +4,7 @@ export const rsvps = sqliteTable("rsvps", {
   id: integer("id").primaryKey({ autoIncrement: true }),
   name: text("name").notNull(),
   email: text("email").notNull().unique(),
+  phone: text("phone").notNull().default(""),
   friday: text("friday").notNull(),
   saturday: text("saturday").notNull(),
   dietary: text("dietary").notNull().default(""),
