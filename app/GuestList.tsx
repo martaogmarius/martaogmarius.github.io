@@ -17,7 +17,7 @@ export function GuestList() {
       <div className="section-heading">
         <p className="kicker">Gjester</p>
         <h2 className="page-title">Hvem kommer?</h2>
-        <p>Skriv ditt/deres navn dersom du/dere planlegger å komme, slik at andre gjester kan se det. Dette er ikke en bindende påmelding – just for fun.</p>
+        <p>Svar her om du kommer eller ikke. Navnet ditt blir synlig for andre gjester, men ikke resterende informasjon (allergier o.l.). Her kan gjestene få innblikk i hvem andre som kommer. Obs: Dette er ikke RSVP/bindende påmelding. Den gjelder først når betalingen for overnattingen er gjennomført.</p>
         <a className="primary-button guest-rsvp-button" href="/svar">Svar her</a>
       </div>
       {loading ? <p className="empty-list">Henter svar …</p> : guests.filter((guest) => guest.friday === "yes" || guest.saturday === "yes").length === 0 ? null : (
