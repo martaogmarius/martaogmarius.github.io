@@ -7,8 +7,8 @@ export default function AccommodationPage() {
       <SiteNav />
       <section className="accommodation section-pad">
         <div className="section-heading">
-          <h1 className="page-title">Overnatting og RSVP</h1>
-          <p>Overnattingen betales av hver gjest. Endelig og bindende RSVP gjelder først når betalingen er gjennomført.</p>
+          <h1 className="page-title">RSVP</h1>
+          <p>Endelig og bindende RSVP gjelder først når betalingen for overnatting per person, er gjennomført.</p>
         </div>
 
         <div className="accommodation-details">
