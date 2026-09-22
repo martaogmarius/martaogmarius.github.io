@@ -224,6 +224,8 @@ footer { padding:2.7rem 1.25rem; background:var(--pink); color:var(--red); text-
 .guest-list { background:#fff0f5; }.guest-table { max-width:900px; margin:auto; border-top:1px solid #e3cfca; }.guest-row { display:grid; grid-template-columns:minmax(180px,2fr) 1fr; align-items:center; gap:1rem; min-height:64px; padding:.8rem 1rem; border-bottom:1px solid #e3cfca; }.guest-head { min-height:46px; color:#8d6e69; font-size:.7rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }.answer { width:max-content; padding:.35rem .65rem; border-radius:999px; background:#f3ecea; font-size:.72rem; }.answer.yes { background:#f7d2cd; color:#7d1c17; }.answer.no { color:#76635f; }.answer.unsure { background:#fff0d1; color:#72551e; }.empty-list { text-align:center; color:#80525c; }
 .guest-rsvp-button { margin-top:1.25rem; }
 .section-heading .guest-rsvp-note { margin-top:1.5rem; font-size:.85rem; }
+.section-heading .rsvp-deadline { margin-top:1.2rem; }
+.rsvp-deadline strong { color:var(--red); }
 .admin-page { min-height:100svh; padding:clamp(2rem,6vw,5rem) max(5vw,1.25rem); background:var(--blush); }
 .admin-back { display:inline-block; color:var(--red); font-size:.8rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; }
 .admin-shell { max-width:960px; margin:clamp(3rem,7vw,6rem) auto 0; }

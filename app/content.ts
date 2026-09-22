@@ -9,7 +9,7 @@ export const wedding = {
   checkOut: "Søndag før kl. 11.00",
   fridayTime: "Fredag 25. juni · Kl. 18.00",
   saturdayTime: "Lørdag 26. juni · Tidspunkt kommer",
-  rsvpDeadline: "1. mars 2027",
+  rsvpDeadline: "1. april 2027",
   mapUrl: "https://maps.google.com/?q=Borgo+San+Pietro+Aquaeortus",
   // Legg et bilde i public-mappen og skriv f.eks. "/borgo.jpg" her.
   heroImage: "",

@@ -9,6 +9,7 @@ export default function AccommodationPage() {
         <div className="section-heading">
           <h1 className="page-title">RSVP</h1>
           <p>Endelig og bindende RSVP gjelder først når betalingen for overnatting per person, er gjennomført.</p>
+          <p className="rsvp-deadline">Dette må besvares før <strong>1. april 2027</strong>.</p>
         </div>
 
         <div className="accommodation-details">
